@@ -10,7 +10,7 @@ import net.dv8tion.jda.api.interactions.commands.build.CommandData;
 
 public class SlashCommandListener extends ListenerAdapter {
     private final Services services;
-    private static final String TEST_GUILD_ID = "1";
+    private static final String TEST_GUILD_ID = "0";
 
     public SlashCommandListener(MusicManager musicManager) {
         this.services = new Services(musicManager);
